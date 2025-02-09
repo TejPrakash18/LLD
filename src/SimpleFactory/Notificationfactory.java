@@ -1,6 +1,7 @@
 package SimpleFactory;
 
 public class Notificationfactory {
+
     public static Notification createNotification(String type){
         if(type == null || type.isEmpty()){
             return null;
