@@ -8,6 +8,6 @@ public class Director {
     }
 
     public Car buildLambo(){
-        return carBuilder.id(1).brand("Lamborghini").model("Adornment").color("Yellow").build();
+        return carBuilder.id(1).brand("Lamborghini").model("Adornment").color("RED").build();
     }
 }
