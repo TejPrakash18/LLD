@@ -1,6 +1,6 @@
-package proxydesignpattern;
+package proxydesignpattern.attendanceproxy;
 
-public class Proxy implements subject{
+public class Proxy implements subject {
     private RealSubject realSubject;
     @Override
     public void attendance() {

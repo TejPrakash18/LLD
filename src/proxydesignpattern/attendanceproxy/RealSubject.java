@@ -1,4 +1,4 @@
-package proxydesignpattern;
+package proxydesignpattern.attendanceproxy;
 
 public class RealSubject implements subject {
     @Override
