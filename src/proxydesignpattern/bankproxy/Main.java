@@ -9,5 +9,7 @@ public class Main {
 
         int remainingBalance = banker.withdraw(902744010, 100);
         System.out.println("Remaining balance: " + remainingBalance);
+
+        System.out.println(banker.withdraw(902744010, 1200));
     }
 }
