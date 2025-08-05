@@ -1,4 +1,4 @@
-package concurrency;
+package designpatterns.concurrency;
 
 public class MyThread extends Thread {
 
