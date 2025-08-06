@@ -3,7 +3,7 @@ package projects.googledoc;
 public class Main {
     public static void main(String[] args) {
         Document doc = new Document();
-        Persistence saveToFile = new SaveToFile("/src/projects/googledoc/output.txt");
+        Persistence saveToFile = new SaveToFile("./src/projects/googledoc/output.txt");
 
         DocumentEditor documentEditor = new DocumentEditor(doc, saveToFile);
 

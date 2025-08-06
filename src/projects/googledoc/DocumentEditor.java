@@ -23,6 +23,7 @@ public class DocumentEditor {
     }
 
     public void renderDoc() {
-        document.render();
+        System.out.println(document.render());
     }
+
 }
