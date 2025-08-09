@@ -10,6 +10,6 @@ public class ImageElement implements DocumentElement{
 
     @Override
     public String render() {
-        return path + "\n";
+        return path;
     }
 }

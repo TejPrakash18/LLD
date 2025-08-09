@@ -18,6 +18,12 @@ public class DocumentEditor {
         document.addElement(new ImageElement(filePath));
     }
 
+    public void addTab(String tab){
+        document.addElement(new TabElement(tab));
+    }
+    public void addNewLine(String newLine){
+        document.addElement(new NewLine(newLine));
+    }
     public void save(){
         persistence.save(document);
     }

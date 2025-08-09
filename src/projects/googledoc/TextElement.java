@@ -8,6 +8,6 @@ public class TextElement implements DocumentElement {
     }
 
     public String render() {
-        return text +"\n";
+        return text;
     }
 }
