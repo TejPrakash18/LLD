@@ -1,4 +1,4 @@
-package StrategyPattern;
+package designpatterns.StrategyPattern;
 
 public class PaymentByCreditCard implements Strategy{
     private String cardNumber;

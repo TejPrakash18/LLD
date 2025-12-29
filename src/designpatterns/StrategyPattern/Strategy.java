@@ -1,4 +1,4 @@
-package StrategyPattern;
+package designpatterns.StrategyPattern;
 
 public interface Strategy {
 

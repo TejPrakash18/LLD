@@ -1,6 +1,6 @@
-package StrategyPattern;
+package designpatterns.StrategyPattern;
 
-public class GooglePay implements Strategy{
+public class GooglePay implements Strategy {
     private final String phoneNumber;
 
     GooglePay(String phoneNumber){

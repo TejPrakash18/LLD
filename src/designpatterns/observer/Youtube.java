@@ -30,7 +30,7 @@ public class Youtube implements Channel{
     }
 
     public void uploadVideo(String videoTitle){
-        System.out.println("\n" + channelName + " Uploaded: " + videoTitle);
+        System.out.println("\n" + channelName + " Uploaded  : " + videoTitle);
         notification(videoTitle);
     }
 }
