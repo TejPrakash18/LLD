@@ -1,4 +1,4 @@
-package Testing;
+package designpatterns.Testing;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
