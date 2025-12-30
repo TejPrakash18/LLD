@@ -1,9 +1,9 @@
 package designpatterns.command;
 
-public class TurnOffFan implements Command{
+public class FanOff implements Command{
     private Fan fan;
 
-    public TurnOffFan(Fan fan){
+    public FanOff(Fan fan) {
         this.fan = fan;
     }
 

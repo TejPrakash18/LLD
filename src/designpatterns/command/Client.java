@@ -5,11 +5,11 @@ public class Client {
         Light light = new Light();
         Fan fan = new Fan();
 
-        Command lightOn = new TurnOnLight(light);
-        Command lightOff = new TurnOffLight(light);
+        Command lightOn = new LightOn(light);
+        Command lightOff = new LightOff(light);
 
-        Command fanOn = new TurnOnFan(fan);
-        Command fanOff = new TurnOffFan(fan);
+        Command fanOn = new FanOn(fan);
+        Command fonOff = new FanOff(fan);
 
         Remote remote = new Remote();
         remote.setCommand(lightOn);
@@ -20,8 +20,7 @@ public class Client {
 
         remote.setCommand(fanOn);
         remote.pressButton();
-
-        remote.setCommand(fanOff);
+        remote.setCommand(fonOff);
         remote.pressButton();
     }
 }

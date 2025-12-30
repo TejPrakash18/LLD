@@ -1,14 +1,14 @@
 package designpatterns.command;
 
-public class TurnOnFan  implements Command{
+public class FanOn implements Command{
     private Fan fan;
-
-    public TurnOnFan(Fan fan){
+    public FanOn(Fan fan) {
         this.fan = fan;
     }
 
     @Override
     public void execute() {
-        fan.turnOnFan();
+     fan.turnOnFan();
     }
+
 }

@@ -1,14 +1,13 @@
 package designpatterns.command;
 
-
-public class TurnOnLight implements Command {
+public class LightOff implements Command{
     private Light light;
 
-    public TurnOnLight(Light light){
+    public LightOff(Light light){
         this.light = light;
     }
     @Override
     public void execute() {
-        light.lightOn();
+        light.lightOff();
     }
 }
