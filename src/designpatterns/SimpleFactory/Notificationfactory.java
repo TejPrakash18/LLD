@@ -1,4 +1,4 @@
-package SimpleFactory;
+package designpatterns.SimpleFactory;
 
 public class Notificationfactory {
 
@@ -6,17 +6,11 @@ public class Notificationfactory {
         if(type == null || type.isEmpty()){
             return null;
         }
-        switch (type.toLowerCase()){
-            case "sms":
-                return new SMSNotification();
-
-            case "email":
-                return new EmailNotification();
-            case "whatsapp":
-                return new WhatsAppNotification();
-
-            default: throw new IllegalArgumentException("Unknown notification: "+ type);
-
-        }
+        return switch (type.toLowerCase()) {
+            case "sms" -> new SMSNotification();
+            case "email" -> new EmailNotification();
+            case "whatsapp" -> new WhatsAppNotification();
+            default -> throw new IllegalArgumentException("Unknown notification: " + type);
+        };
     }
 }

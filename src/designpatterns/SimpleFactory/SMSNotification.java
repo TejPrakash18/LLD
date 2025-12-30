@@ -1,4 +1,5 @@
-package SimpleFactory;
+package designpatterns.SimpleFactory;
+
 
 public class SMSNotification implements Notification{
     @Override

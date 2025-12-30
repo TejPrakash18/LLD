@@ -1,4 +1,4 @@
-package SimpleFactory;
+package designpatterns.SimpleFactory;
 
 public class WhatsAppNotification implements Notification{
     @Override
